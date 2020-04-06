@@ -3,8 +3,11 @@ body{
 	color:#00274C;
 }
 
+.container{
+	height:15vh;
+}
 h1{
-	
+	padding-top:25px;
 	font-family:"Graduate", cursive;
 	text-align: center;
 	font-size: 32px;
@@ -18,7 +21,7 @@ p{
 	width: 95%;
 	margin:0 auto;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	justify-items: center;
@@ -68,4 +71,14 @@ a {
 	opacity:.9;
 }
 
+@media all and (min-width: 650px){
+	.gallery{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
 
+@media all and (min-width: 925px){
+	.gallery{
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+}

@@ -104,6 +104,8 @@ html.lb-disable-scrolling {
 }
 
 .lb-nav a.lb-prev {
+  /*COLLEEN*/
+  content:"Previous";
   width: 34%;
   left: 0;
   float: left;
