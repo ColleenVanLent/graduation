@@ -1,0 +1,71 @@
+body{
+	background:rgba(255,203,5,.8);
+	color:#00274C;
+}
+
+h1{
+	
+	font-family:"Graduate", cursive;
+	text-align: center;
+	font-size: 32px;
+}
+p{
+	font-size:20px;
+	line-height: 1em
+}
+
+.gallery{
+	width: 95%;
+	margin:0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-items: center;
+
+}
+
+.gallery img{
+	width: 100%;
+	/*height: 40vh;*/
+	margin: 0 auto;
+}
+figcaption{
+	font-size: 18px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+figure{
+	width: auto;
+	border: 2px solid #00274C;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	width:100%;
+}
+
+.item{
+	border: 2px solid black;
+}
+
+.lb-dataContainer{
+	min-width: 50vw;
+}
+
+
+.lb-data .lb-caption {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data h1, .lb-caption h1{
+	color:rgba(255,203,5);
+}
+#lightboxOverlay{
+	opacity:.9;
+}
+
+
