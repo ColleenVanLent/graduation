@@ -8,7 +8,7 @@ p span{
 }
 
 .container{
-	height:15vh;
+	height:5vh;
 }
 h1{
 	padding-top:25px;
@@ -76,6 +76,10 @@ a {
 }
 
 @media all and (min-width: 650px){
+
+	.container{
+		height:15vh;
+}
 	.gallery{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
