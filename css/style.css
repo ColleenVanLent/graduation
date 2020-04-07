@@ -62,8 +62,8 @@ a {
 }
 
 
-.lb-data .lb-caption {
-  font-size: 42px;
+.lb-data .lb-caption h1 {
+  font-size: 24px;
   font-weight: bold;
   line-height: 1em;
 }
@@ -75,8 +75,11 @@ a {
 	opacity:.9;
 }
 
-@media all and (min-width: 650px){
+@media all and (min-width: 725px){
 
+	.lb-data .lb-caption h1 {
+	  	font-size: 32px;
+	}
 	.container{
 		min-height:15vh;
 	}
@@ -88,6 +91,9 @@ a {
 	.gallery{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+	.lb-data .lb-caption h1 {
+	  	font-size: 42px;
+	}
 }
 @media all and (min-width: 925px){
 	.gallery{
@@ -95,7 +101,7 @@ a {
 	}
 }
 
-@media all and (min-width: 1250px){
+@media all and (min-width: 1125px){
 	.gallery{
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
