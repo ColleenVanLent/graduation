@@ -3,6 +3,10 @@ body{
 	color:#00274C;
 }
 
+p span{
+	text-decoration:double underline #ffcb05cc;
+}
+
 .container{
 	height:15vh;
 }
