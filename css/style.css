@@ -10,7 +10,7 @@ p span{
 .container{
 	min-height:5vh;
 }
-h1{
+h1, h2{
 	padding-top:25px;
 	font-family:"Graduate", cursive;
 	text-align: center;
