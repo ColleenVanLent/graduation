@@ -61,7 +61,9 @@ a {
 	min-width: 50vw;
 }
 
-
+.lb-image{
+	max-height:500px !important;
+}
 .lb-data .lb-caption h1 {
   font-size: 24px;
   font-weight: bold;
